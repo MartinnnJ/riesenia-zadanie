@@ -1,0 +1,35 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+
+  list-style: none;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 2.7rem;
+  color: $color-default;
+}
+
+.list__item {
+  display: flex;
+  align-items: flex-start;
+  gap: 2.2rem;
+}
+
+.list__item::before {
+  content: url('../../assets/checkmark.svg');
+  width: 2.4rem;
+  height: 2.4rem;
+  margin-top: 3px;
+}
+
+@media (min-width: $breakpoint-desktop) {
+
+  .list__item {
+    gap: 1rem;
+  }
+
+  .list__item::before {
+    margin-top: 0;
+  }
+}

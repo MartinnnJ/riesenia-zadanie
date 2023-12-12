@@ -1,0 +1,12 @@
+.banner-heading {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 4.5rem;
+  text-align: center;
+  color: $color-secondary;
+
+  @media (min-width: $breakpoint-desktop) {
+    font-size: 5rem;
+    line-height: 8rem;
+  }
+}

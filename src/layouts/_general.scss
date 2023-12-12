@@ -1,0 +1,48 @@
+// mobile layout
+.header,
+.footer {
+  padding: $container-padding-mobile;
+}
+
+.main {
+  padding: 5rem $container-padding-mobile 10rem; // up, aside, down
+}
+
+// tablet layout
+@media (min-width: $breakpoint-tablet) {
+
+  .header,
+  .footer {
+    padding: 4rem $container-padding-tablet;
+  }
+
+  .main {
+    padding: 7rem $container-padding-tablet 15rem; // up, aside, down
+  }
+
+}
+
+// desktop layout
+@media (min-width: $breakpoint-desktop) {
+
+  .header {
+    padding: 6rem 15rem;
+  }
+
+  .main {
+    padding: 10rem 15rem 20rem; // up, aside, down
+  }
+
+}
+
+@media (min-width: 1350px) {
+
+  .header {
+    padding: 6rem $container-padding-desktop;
+  }
+
+  .main {
+    padding: 10rem $container-padding-desktop 20rem; // up, aside, down
+  }
+
+}

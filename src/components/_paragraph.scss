@@ -1,0 +1,13 @@
+.paragraph {
+  font-size: 2.1rem;
+  line-height: 4rem;
+  color: $color-default;
+
+  @media (min-width: $breakpoint-desktop) {
+    font-size: 2.3rem;
+  }
+}
+
+.paragraph__bold {
+  font-weight: 800;
+}

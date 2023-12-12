@@ -1,0 +1,16 @@
+.client-card {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.client-card__name,
+.client-card__description {
+  display: block;
+  font-size: 1.6rem;
+  line-height: 1.5rem;
+}
+
+.client-card__name {
+  font-weight: 900;
+}

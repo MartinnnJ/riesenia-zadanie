@@ -1,0 +1,31 @@
+@import '../abstracts/variables';
+
+.review {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+
+  @media (min-width: $breakpoint-tablet) {
+    gap: 3.5rem;
+  }
+}
+
+.review__container {
+  max-width: 42rem;
+  position: relative;
+  padding: 3rem;
+  border: 1px solid $border-color;
+}
+
+.review__container::before {
+  content: url('../../assets/quotes.svg');
+  position: absolute;
+  top: -25px;
+  left: 3rem;
+}
+
+.review__text {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 3.2rem;
+}

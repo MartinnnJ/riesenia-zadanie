@@ -1,0 +1,51 @@
+// mobile layout
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 41rem;
+  background-image: $header-gradient;
+
+  .header__figure {
+    align-self: flex-start;
+  }
+
+  .banner-heading {
+    max-width: 50rem;
+  }
+
+  .button--small {
+    margin-bottom: 3rem;
+  }
+
+  // tablet layout
+  @media (min-width: $breakpoint-tablet) {
+
+    .button--small {
+      margin-bottom: 0;
+    }
+
+  }
+
+  // desktop layout
+  @media (min-width: $breakpoint-desktop) {
+    flex-direction: row;
+
+    height: 55.4rem;
+
+    .header__figure {
+      width: 145px;
+    }
+
+    .banner-heading {
+      max-width: 65rem;
+      flex: 1;
+    }
+
+    .button--small {
+      align-self: flex-start;
+    }
+  }
+}
