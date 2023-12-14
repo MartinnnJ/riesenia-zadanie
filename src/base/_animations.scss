@@ -1,0 +1,76 @@
+// header animations / transitions
+$header-animation-transition: transform 1.5s ease, opacity 1.5s ease;
+$main-animation-transition: transform 1s ease, opacity 1s ease;
+$footer-animation-transition: transform 1s ease, opacity 1s ease;
+
+.header {
+
+  .header__figure {
+    transition: $header-animation-transition;
+  }
+
+  .banner-heading {
+    transition: $header-animation-transition;
+    transition-delay: .5s;
+  }
+
+  .button {
+    transition: $header-animation-transition;
+    transition-delay: 1.5s;
+  }
+
+}
+
+// main animations / transitions
+.main {
+
+  .main__figure {
+    transition: $main-animation-transition;
+  }
+
+  .main-heading {
+    transition: $main-animation-transition;
+  }
+
+  .paragraph {
+    transition: $main-animation-transition;
+  }
+
+  .list__item {
+    transition: $main-animation-transition;
+  }
+
+  .button {
+    transition: $main-animation-transition;
+  }
+
+  .review__container {
+    transition: $main-animation-transition;
+  }
+
+  .client-card {
+    transition: $main-animation-transition;
+  }
+
+  .goal-item {
+    transition: $main-animation-transition;
+  }
+
+}
+
+// footer animations / transitions
+.footer {
+
+  .banner-heading {
+    transition: $footer-animation-transition;
+  }
+
+  .link {
+    transition: $footer-animation-transition;
+  }
+
+  .footer__figure {
+    transition: $footer-animation-transition;
+  }
+
+}

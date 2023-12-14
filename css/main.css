@@ -1,4 +1,51 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&display=swap");
+.header .header__figure {
+  transition: transform 1.5s ease, opacity 1.5s ease;
+}
+.header .banner-heading {
+  transition: transform 1.5s ease, opacity 1.5s ease;
+  transition-delay: 0.5s;
+}
+.header .button {
+  transition: transform 1.5s ease, opacity 1.5s ease;
+  transition-delay: 1.5s;
+}
+
+.main .main__figure {
+  transition: transform 1s ease, opacity 1s ease;
+}
+.main .main-heading {
+  transition: transform 1s ease, opacity 1s ease;
+}
+.main .paragraph {
+  transition: transform 1s ease, opacity 1s ease;
+}
+.main .list__item {
+  transition: transform 1s ease, opacity 1s ease;
+}
+.main .button {
+  transition: transform 1s ease, opacity 1s ease;
+}
+.main .review__container {
+  transition: transform 1s ease, opacity 1s ease;
+}
+.main .client-card {
+  transition: transform 1s ease, opacity 1s ease;
+}
+.main .goal-item {
+  transition: transform 1s ease, opacity 1s ease;
+}
+
+.footer .banner-heading {
+  transition: transform 1s ease, opacity 1s ease;
+}
+.footer .link {
+  transition: transform 1s ease, opacity 1s ease;
+}
+.footer .footer__figure {
+  transition: transform 1s ease, opacity 1s ease;
+}
+
 *,
 *::before,
 *::after {
@@ -31,6 +78,15 @@ body {
 
 .hidden {
   display: none;
+}
+
+.md {
+  transform: translateY(45px);
+  opacity: 0;
+}
+
+.hide {
+  opacity: 0;
 }
 
 .button {
