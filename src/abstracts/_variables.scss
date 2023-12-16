@@ -21,3 +21,8 @@ $button-radius: .8rem;
 
 $header-gradient: linear-gradient(159deg, #3D2E80 51.38%, #DC1969 125.72%);
 $footer-gradient: linear-gradient(143deg, #3D2E80 38.81%, #DC1969 112.05%);
+
+// animations / transitions
+$header-animation-transition: transform 1.5s ease, opacity 1.5s ease;
+$main-animation-transition: transform 1s ease, opacity 1s ease;
+$footer-animation-transition: transform 1s ease, opacity 1s ease;

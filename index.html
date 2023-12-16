@@ -256,5 +256,53 @@
 
   </footer>
 
+  <dialog class="modal">
+    <div class="close-button">✖</div>
+    <h2 class="modal__title">Jednoducho nám napíšte a my sa vám ozveme.</h2>
+    <form class="modal__form" autocomplete="off">
+
+      <div class="input">
+        <label class="input__label" for="name">
+          Meno:
+          <span>*</span>
+        </label>
+        <input class="input__input-field" type="text" name="name" id="name" required>
+      </div>
+
+      <div class="input">
+        <label class="input__label" for="email">
+          E-mail:
+          <span>*</span>
+        </label>
+        <input class="input__input-field" type="email" name="email" id="email" required>
+      </div>
+
+      <div class="input">
+        <label class="input__label" for="phone">
+          Tel. číslo:
+        </label>
+        <input class="input__input-field" type="text" name="phone" id="phone">
+      </div>
+
+      <div class="input">
+        <label class="input__label" for="website">
+          Webstránka:
+        </label>
+        <input class="input__input-field" type="url" name="website" id="website">
+      </div>
+
+      <div class="input">
+        <label class="input__label" for="note">
+          Poznámka:
+        </label>
+        <textarea class="input__input-field" name="note" id="note" placeholder="Je niečo čo by ste sa nás chceli spýtat?"></textarea>
+      </div>
+
+      <button class="button">
+        Kontaktujte ma
+      </button>
+    </form>
+  </dialog>
+
 </body>
 </html>
